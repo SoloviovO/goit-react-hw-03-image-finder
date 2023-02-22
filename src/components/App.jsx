@@ -30,7 +30,7 @@ export class App extends Component {
             total: data.totalHits,
           }));
         })
-        .catch(error => alert('Something was wrong, please try again.'))
+        .catch(error => alert(`${error.message}`))
         .finally(() => this.setState({ isloading: false }));
     }
   }
