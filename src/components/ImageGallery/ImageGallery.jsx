@@ -12,7 +12,6 @@ export const ImageGallery = ({ photos }) => {
             key={photo.id}
             webformatURL={photo.webformatURL}
             largeImageURL={photo.largeImageURL}
-            tags={photo.tags}
           />
         );
       })}

@@ -26,7 +26,6 @@ export class ImageGalleryItem extends Component {
           <Modal
             largeImageURL={this.props.largeImageURL}
             onClose={this.toggleModal}
-            tags={this.props.tags}
           />
         )}
       </>

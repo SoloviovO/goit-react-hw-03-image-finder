@@ -25,7 +25,7 @@ export class Modal extends Component {
       <div
         className={css.Overlay}
         onClick={e => {
-          e.target === e.currentTarget && onClose(e);
+          e.target === e.currentTarget && onClose();
         }}
       >
         <div className={css.Modal}>
